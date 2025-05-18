@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="cs">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Psychologie reklamy</title>
-  <link rel="stylesheet" href="style/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Test osobnosti</title>
+  <link rel="stylesheet" href="style/style.css" />
 </head>
 <body>
   <header>
-    <img src="images/logo-nadpis.png" alt="Psychologické jevy" class="logo">
+    <img src="images/logo-nadpis.png" alt="Psychologické jevy" class="logo" />
     <nav class="main-nav">
-      <input type="checkbox" id="menu-toggle">
+      <input type="checkbox" id="menu-toggle" />
       <label for="menu-toggle" class="menu-icon">&#9776;</label>
       <ul class="top-menu">
         <li><a href="index.html">Domů</a></li>
@@ -23,78 +23,79 @@
     </nav>
   </header>
 
-  <main>
-    <h1>Test osobnosti</h1>
-    <p>Informace o MBTI testu a základní přehled typů...</p>
+  <div class="center-column">
+    <main class="obsah-box">
+      <h1>Test osobnosti</h1>
+      <p>Informace o MBTI testu a základní přehled typů...</p>
 
-    <section>
-      <h2>Co je MBTI?</h2>
-      <p>MBTI (Myers‑Briggs Type Indicator) je jeden z nejrozšířenějších nástrojů sebehodnocení, který rozděluje osobnost do 16 typů podle čtyř dimenzí:</p>
-      <ul>
-        <li><strong>Extroverze (E)</strong> vs. <strong>Introverze (I)</strong></li>
-        <li><strong>Smyšlenkový typ (S)</strong> vs. <strong>Intuitivní typ (N)</strong></li>
-        <li><strong>Myslící (T)</strong> vs. <strong>Cítící (F)</strong></li>
-        <li><strong>Usuzující (J)</strong> vs. <strong>Vnímavý (P)</strong></li>
-      </ul>
-    </section>
+      <section>
+        <h2>Co je MBTI?</h2>
+        <p>MBTI (Myers‑Briggs Type Indicator) je jeden z nejrozšířenějších nástrojů sebehodnocení, který rozděluje osobnost do 16 typů podle čtyř dimenzí:</p>
+        <ul>
+          <li><strong>Extroverze (E)</strong> vs. <strong>Introverze (I)</strong></li>
+          <li><strong>Smyšlenkový typ (S)</strong> vs. <strong>Intuitivní typ (N)</strong></li>
+          <li><strong>Myslící (T)</strong> vs. <strong>Cítící (F)</strong></li>
+          <li><strong>Usuzující (J)</strong> vs. <strong>Vnímavý (P)</strong></li>
+        </ul>
+      </section>
 
-    <section>
-      <h2>Jak test funguje</h2>
-      <ol>
-        <li>Přečti si každou otázku a vyber tu odpověď, která nejlépe vystihuje tvé preference.</li>
-        <li>Snaž se odpovídat upřímně, nevymýšlej si, co by bylo „správné“.</li>
-        <li>Na konci testu sečteme body a přiřadíme ti jeden ze 16 MBTI typů.</li>
-      </ol>
-    </section>
+      <section>
+        <h2>Jak test funguje</h2>
+        <ol>
+          <li>Přečti si každou otázku a vyber tu odpověď, která nejlépe vystihuje tvé preference.</li>
+          <li>Snaž se odpovídat upřímně, nevymýšlej si, co by bylo „správné“.</li>
+          <li>Na konci testu sečteme body a přiřadíme ti jeden ze 16 MBTI typů.</li>
+        </ol>
+      </section>
 
-    <section>
-      <h2>Ukázkové otázky</h2>
-      <form id="mbti-test">
-        <fieldset>
-          <legend>1) Když jsi na večírku, obvykle:</legend>
-          <label><input type="radio" name="q1" value="E" required> Hledáš nové lidi a bavíš se s mnoha</label>
-          <label><input type="radio" name="q1" value="I"> Držíš se spíše s několika známými</label>
-        </fieldset>
-        <fieldset>
-            <legend>2) Více tě láká zaměřit se na:</legend>
-            <label><input type="radio" name="q2" value="S" required> Konkrétní fakta a detaily</label>
-            <label><input type="radio" name="q2" value="N"> Možné souvislosti a nápady</label>
-        </fieldset>
-        <fieldset>
-            <legend>3) Při rozhodování se řídíš:</legend>
-            <label><input type="radio" name="q3" value="T" required> Logikou a objektivními fakty</label>
-            <label><input type="radio" name="q3" value="F"> Osobními hodnotami a city</label>
+      <section>
+        <h2>Ukázkové otázky</h2>
+        <form id="mbti-test">
+          <fieldset>
+            <legend>1) Když jsi na večírku, obvykle:</legend>
+            <label><input type="radio" name="q1" value="E" required /> Hledáš nové lidi a bavíš se s mnoha</label>
+            <label><input type="radio" name="q1" value="I" /> Držíš se spíše s několika známými</label>
           </fieldset>
-        <fieldset>
-          <legend>4) Při plánování dovolené dáváš přednost:</legend>
-          <label><input type="radio" name="q4" value="J" required> Pevně stanovenému programu</label>
-          <label><input type="radio" name="q4" value="P"> Volnému přístupu bez pevného plánu</label>
-        </fieldset>
-        <button type="submit">Zjistit typ</button>
-      </form>
-    </section>
+          <fieldset>
+            <legend>2) Více tě láká zaměřit se na:</legend>
+            <label><input type="radio" name="q2" value="S" required /> Konkrétní fakta a detaily</label>
+            <label><input type="radio" name="q2" value="N" /> Možné souvislosti a nápady</label>
+          </fieldset>
+          <fieldset>
+            <legend>3) Při rozhodování se řídíš:</legend>
+            <label><input type="radio" name="q3" value="T" required /> Logikou a objektivními fakty</label>
+            <label><input type="radio" name="q3" value="F" /> Osobními hodnotami a city</label>
+          </fieldset>
+          <fieldset>
+            <legend>4) Při plánování dovolené dáváš přednost:</legend>
+            <label><input type="radio" name="q4" value="J" required /> Pevně stanovenému programu</label>
+            <label><input type="radio" name="q4" value="P" /> Volnému přístupu bez pevného plánu</label>
+          </fieldset>
+          <button type="submit">Zjistit typ</button>
+        </form>
+      </section>
 
-    <section id="results" style="display:none;">
-      <h2>Tvůj MBTI typ:</h2>
-      <p id="type-code"></p>
-      <h3>Popis</h3>
-      <p id="type-description"></p>
-    </section>
-  </main>
+      <section id="results" style="display:none;">
+        <h2>Tvůj MBTI typ:</h2>
+        <p id="type-code"></p>
+        <h3>Popis</h3>
+        <p id="type-description"></p>
+      </section>
+    </main>
+  </div>
 
   <footer>
     <p>&copy; 2025 Psychologické jevy – Edukativní projekt</p>
   </footer>
 
-  <!-- Vložený JavaScript -->
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
+    document.addEventListener('DOMContentLoaded', function () {
       const form = document.getElementById('mbti-test');
       if (!form) return;
-      form.addEventListener('submit', function(e) {
+      form.addEventListener('submit', function (e) {
         e.preventDefault();
         let result = '';
-        ['q1','q2','q3','q4'].forEach(name => {
+        ['q1', 'q2', 'q3', 'q4'].forEach((name) => {
           const el = form.elements[name];
           if (el && el.value) result += el.value;
         });
@@ -114,7 +115,7 @@
           ESTJ: 'Praktický organizátor, rád má strukturu a jasná pravidla.',
           ESFJ: 'Starostlivý družný, dbá na harmonii ve skupině a podporuje ostatní.',
           ENFJ: 'Charismatický vůdce, rozumí emocím druhých a inspiruje je k růstu.',
-          ENTJ: 'Rozhodný stratég, efektivně vede lidi k dosažení ambiciózních cílů.'
+          ENTJ: 'Rozhodný stratég, efektivně vede lidi k dosažení ambiciózních cílů.',
         };
         document.getElementById('type-code').textContent = result;
         document.getElementById('type-description').textContent =
